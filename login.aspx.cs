@@ -183,7 +183,7 @@ public partial class login : System.Web.UI.Page
                     // contador de acessos.                    
                     try
                     {
-                        SqlDataSourceLogin.UpdateCommand = "update pccdcli0 set nroacessoweb = coalesce(nroacessoweb,0) + 1 where codigo = '" + codigo + "'";
+                        SqlDataSourceLogin.UpdateCommand = "update pccdcli0 set nroacessoweb = coalesce(nroacessoweb,0) + 1, nroacessowebacumul = coalesce(nroacessowebacumul,0) + 1 where codigo = '" + codigo + "'";
                         SqlDataSourceLogin.Update();
                     }
                     catch

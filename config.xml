@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <configss>
-	<title>DPL Pedido Online</title>
-	<descricao>SS Sistemas Demonstração</descricao>
+	<title>Brondani (Ambiente de Teste)</title>
+	<descricao>Brondani Auto Peças</descricao>
 	<logo>ss.logo</logo>
   <icon></icon>
   <!-- 
@@ -15,5 +15,5 @@
      - rosa
      - vermelho
   -->
-  <fundo>verde</fundo>
+  <fundo>azulescuro</fundo>
 </configss>
